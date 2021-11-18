@@ -7,9 +7,7 @@
 <br/>
 <img src="./screenshots/device-2021-11-18-131721.png" width=50% />
 
-## Videos
-
-<video controls src="./screenshots/device-2021-11-18-131742.mp4" width=50%></vidoe>
+[Watch video here](./screenshots/device-2021-11-18-131742.mp4)
 
 ## Solution
 
@@ -33,6 +31,8 @@ When using a `FlexboxLayoutManager` there is no need to override any of the recy
         }
     }
 ```
+
+Main deference between a `FlexboxLayoutManager` and `StaggeredLayoutManager` or `GridLayoutManager` is that both of these require a form of coloumn size which dictates how many views can be layout out on the screen which neither are ideal for the usecase demonstrated above. 
 
 ```kotlin
     private fun onData(content: List<Content>) {
